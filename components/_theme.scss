@@ -1,0 +1,14 @@
+html:has(.toggle__checkbox:checked) {
+  --color-background: var(--color-black);
+  --color-text: var(--color-white);
+  --color-link-bg: var(--color-green);
+  --color-grey: #080808;
+  --color-input-border: var(--color-white);
+}
+html:has(.toggle__checkbox:checked) .skills__column:hover {
+  color: var(--color-green);
+}
+/* when the user try to input some thing he will not be able to see anything so that is why i made it white */
+html:has(.toggle__checkbox:checked) .contact__input {
+  background: var(--color-white);
+}
